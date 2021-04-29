@@ -161,5 +161,8 @@ XF86AudioPrev
 
 # Word Lookup
 ctrl + alt + d
-	bash ~/scripts/word-lookup.sh
+	bash ~/dotfiles/scripts/word-lookup.sh
 
+# Translate
+ctrl + alt + f
+	bash ~/dotfiles/scripts/translate.sh

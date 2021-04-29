@@ -11,9 +11,9 @@ bspc monitor -d I II III IV V VI VII VIII IX X
 #bspc monitor -d I II III IV V VI
 
 bspc config border_width         2
-bspc config window_gap          12
+bspc config window_gap           8
 
-bspc config split_ratio          	0.52
+bspc config split_ratio          	0.50
 bspc config borderless_monocle   	true
 bspc config gapless_monocle      	true
 bspc config focus_follows_pointer	true
@@ -37,7 +37,8 @@ dunst &
 nm-applet &
 
 # Wallpaper
-feh --bg-fill Pictures/Wallpapers/iamroot.jpg
+#feh --bg-fill Pictures/Wallpapers/iamroot.jpg
+feh --bg-fill ~/Pictures/minimal/0058.jpg
 #fish random 1 10 | xargs -I{rn} feh --bg-fill Pictures/Wallpapers/{rn}.jpg
 
 # autostart
