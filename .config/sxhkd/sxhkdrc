@@ -166,3 +166,6 @@ ctrl + alt + d
 # Translate
 ctrl + alt + f
 	bash ~/dotfiles/scripts/translate.sh
+
+ctrl + alt + l
+	node ~/dotfiles/scripts/discord/discrpc.js

@@ -7,9 +7,10 @@ const rpc = new RPC.Client({
 
 rpc.on("ready", () => {
     rpc.setActivity({
-        state: "idk",
+        // details: "",
+        state: "Completing whole Sem in 1 week ;)",
         startTimestamp: new Date(),
-        largeImageKey: "formulacoin-_fc__02",
+        largeImageKey: "chickenread",
         largeImageText: "FC",
     });
 
@@ -17,5 +18,5 @@ rpc.on("ready", () => {
 });
 
 rpc.login({
-    clientId: "<id>",
+    clientId: "",
 }).catch(log.error);

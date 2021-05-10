@@ -44,6 +44,11 @@ feh --bg-fill ~/Pictures/minimal/0058.jpg
 # autostart
 # picom -f -D 5 -i 0.9 &
 #bash ~/.config/polybar/launch.sh --cuts &
-bash ~/.config/polybar/RealKizu/launch.sh &
-bash ~/scripts/spotify/launchlistener.sh &
+bash ~/dotfiles/.config/polybar/RealKizu/launch.sh &
+bash ~/dotfiles/scripts/spotify/launchlistener.sh &
 
+# open apps on specific workspace
+bspc rule -a Firefox desktop='I'
+bspc rule -a discord desktop='IV'
+bspc rule -a Spotify desktop='V'
+bspc rule -a org.gnome.Nautilus desktop='VI'
