@@ -107,10 +107,19 @@ alias rm='rm -i'
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 
+# Prettier commands
+
+# alias ls='ptls'
+# alias mkdir='ptmkdir'
+# alias pwd='ptpwd'
+# alias rm='ptrm -i'
+# alias touch='pttouch'
+# alias cp='ptcp -i'
+
 ### RANDOM COLOR SCRIPT ###
 # Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
 # Or install it from the Arch User Repository: shell-color-scripts
 # colorscript random
 # echo; seq 1 (tput cols) | sort -R | spark | lolcat; echo;
-
+export EDITOR=vim
 starship init fish | source 

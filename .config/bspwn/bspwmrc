@@ -37,9 +37,7 @@ dunst &
 nm-applet &
 
 # Wallpaper
-#feh --bg-fill Pictures/Wallpapers/iamroot.jpg
-feh --bg-fill ~/Pictures/minimal/0058.jpg
-#fish random 1 10 | xargs -I{rn} feh --bg-fill Pictures/Wallpapers/{rn}.jpg
+bash ~/dotfiles/scripts/wallpaper.sh &
 
 # autostart
 # picom -f -D 5 -i 0.9 &
