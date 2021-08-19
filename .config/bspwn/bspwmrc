@@ -6,6 +6,8 @@ pkill picom
 pkill dunst
 pkill polybar
 pkill nm-applet
+ps ax | grep wallpaper-rotate.sh | cut -d" " -f2 | xargs kill
+ps ax | grep wallpaper-rotate.sh | cut -d" " -f3 | xargs kill
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 #bspc monitor -d I II III IV V VI
@@ -37,7 +39,9 @@ dunst &
 nm-applet &
 
 # Wallpaper
-bash ~/dotfiles/scripts/wallpaper.sh &
+# bash ~/dotfiles/scripts/wallpaper.sh &
+# feh --bg-fill ~/Pictures/minimal/Kurz.png
+bash ~/dotfiles/scripts/wallpaper-rotate.sh &
 
 # autostart
 # picom -f -D 5 -i 0.9 &

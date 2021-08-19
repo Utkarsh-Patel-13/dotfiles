@@ -8,7 +8,7 @@ const rpc = new RPC.Client({
 rpc.on("ready", () => {
     rpc.setActivity({
         // details: "",
-        state: "Completing whole Sem in 1 week ;)",
+        state: "",
         startTimestamp: new Date(),
         largeImageKey: "chickenread",
         largeImageText: "FC",

@@ -117,3 +117,5 @@ if ! shopt -oq posix; then
 fi
 source "$HOME/.cargo/env"
 export EDITOR=vim
+
+[ -f ~/.fzf.bash ]
